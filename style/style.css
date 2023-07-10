@@ -172,15 +172,50 @@
 .icon-container {
     display: flex;
     justify-content: space-around;
-    text-align: center;  
+    text-align: center;
 }
-.icon-box{
+
+.icon-box {
     margin: auto;
     padding-top: 65px;
 
 }
-.icon-title{
+
+.icon-title {
     margin-top: 15px;
     color: rgba(39, 39, 39, 0.8);
     font-size: 18px;
+}
+
+/* Hot Deal ! Sale Up To 25% Off */
+
+.hot-deal-section {
+    margin-top: 80px;
+    height: 450px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+}
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.hot-deal-text{
+    text-align: center;
+}
+.hot-deal-title{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.primary{
+    color: #E55473;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-top: 20px;
+}
+.img{
+    width: 230px;
 }
