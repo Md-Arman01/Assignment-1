@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+
+.banner-section{
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+    /* background-image: url('../asset/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: right bottom; */
+    
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title{
+    font-size: 80px;
+    color: #272727;
+}
+.banner-description{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    margin-top: 20px;
+}
+.btn-primary{
+    background:#E55473;
+    padding: 13px 28px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.banner-ward{
+    padding: 197px 0 147px 240px ;
+}
+.banner-img{
+    padding: 50px 240px 0 97px;
+}
