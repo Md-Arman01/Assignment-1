@@ -5,13 +5,10 @@
 
 /* header section */
 
+
 .banner-section {
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    /* background-image: url('../asset/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: right bottom; */
-
 }
 
 .banner-container {
@@ -115,4 +112,38 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+}
+/* Bonus section */
+
+
+.bonus-banner{
+    height: 800px;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url('../asset/tableimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.text-container{
+    margin-left: 130px;
+}
+.flower-buy-from{
+    margin-top: 30px;
+}
+.from-box{
+    border: 0;
+    padding: 15px 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+.from-btn{
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
 }
