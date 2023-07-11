@@ -144,18 +144,19 @@
 
 .from-box {
     border: 0;
+    border-radius: 5px;
     padding: 15px 40px;
     text-align: center;
     margin-right: 5px;
 }
 
-.from-btn {
+/* .from-btn {
     border: 0;
     background-color: black;
     color: white;
     padding: 15px 40px;
     text-align: center;
-}
+} */
 
 /* optional section */
 
@@ -196,32 +197,39 @@
     display: flex;
     justify-content: space-around;
 }
-.hot-deal-container{
+
+.hot-deal-container {
     display: flex;
     align-items: center;
     gap: 200px;
 }
-.hot-deal-text{
+
+.hot-deal-text {
     text-align: center;
 }
-.hot-deal-title{
+
+.hot-deal-title {
     font-size: 30px;
     margin-top: 50px;
 }
-.primary{
+
+.primary {
     color: #E55473;
 }
-.hot-deal-description{
+
+.hot-deal-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     margin-top: 20px;
 }
-.img{
+
+.img {
     width: 230px;
 }
+
 /* Instagram */
 
-.flowers-container{
+.flowers-container {
     width: 70%;
     margin: auto;
     margin-top: 50px;
@@ -229,13 +237,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.flowers-card{
+
+.flowers-card {
     width: 300px;
     height: 330px;
 }
+
 /* Get The Latest Deals */
 
-.latest-deals-section{
+.latest-deals-section {
     width: 70%;
     height: 449px;
     margin: auto;
@@ -247,23 +257,58 @@
     justify-content: center;
     align-items: center;
 }
-.latest-deals-title{
+
+.latest-deals-title {
     font-size: 35px;
     text-align: center;
 }
-.latest-deals-description{
+
+.latest-deals-description {
     font-size: 16px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     margin-top: 10px;
 }
-.input-container{
+
+.input-container {
     margin-top: 40px;
 }
-.email-input{
+
+.email-input {
     border: 0;
     border-radius: 5px;
     padding: 15px 370px 15px 20px;
     color: rgba(39, 39, 39, 0.60);
     margin-right: 10px;
+}
+
+/* footer section */
+
+.footer-bg {
+    height: 350px;
+    background: #111010;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 35px;
+}
+
+.footer-description {
+    color: rgba(212, 206, 206, 0.9);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
 }
